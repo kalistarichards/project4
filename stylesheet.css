@@ -22,13 +22,53 @@ li a:hover{
 .grid{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
-	grid-gap: 3vh;
-	border: 1px gray solid;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap: 1vh;
+	border: 20px white solid;
 }
 .samplegrid-a{
 	background-color: white;
-	padding: 1em;
+	padding: 20px;
+	height: 200px;
 	grid-column-start: 1;
-	grid-colum-end: span 2;
+	grid-colum-end: span 1;
 	text-align: justify;
 }
+.samplegrid-b{
+	background-color: white;
+	padding: 20px;
+	height: 100px;
+	grid-column-start: 2;
+	grid-colum-end: span 1;
+	text-align: justify;
+}
+.samplegrid-c{
+	background-color: white;
+	padding: 20px;
+	height: 20px;
+	grid-column-start: 2;
+	grid-colum-end: span 1;
+	text-align: justify;
+}
+.samplegrid-d{
+	background-color: white;
+	padding: 20px;
+	height: 20px;
+	grid-column-start: 3;
+	grid-colum-end: span 1;
+	grid-row-start: 1;
+	text-align: justify;
+}
+.samplegrid-e{
+	background-color: white;
+	padding: 20px;
+	height: 20px;
+	grid-column-start: 4;
+	grid-colum-end: span 1;
+	grid-row-start: 1;
+	text-align: justify;
+}
+ 
+html, body, a, a:hover { cursor:url('http://www.snazzyspace.com/cursorsfolder/dog-paw.png'), auto !important; }
+
+
